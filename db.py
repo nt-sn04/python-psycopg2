@@ -31,3 +31,7 @@ class Database:
         # Execute a query
         cur.execute("INSERT INTO users (email) VALUES (%s);", (email,))
         self.conn.commit()
+
+    def get_all_expenses(self):
+        pass
+    
